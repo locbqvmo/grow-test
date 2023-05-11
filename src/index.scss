@@ -1,0 +1,16 @@
+@import "@fontsource/montserrat/400.css"; /*Regular*/
+@import "@fontsource/montserrat/600.css"; /*SemiBold*/
+@import "@fontsource/montserrat/700.css"; /*Bold*/
+@import "@fontsource/montserrat/800.css"; /*Extra Bold*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-background {
+  background: rgba(52, 90, 250, 0.04);
+}

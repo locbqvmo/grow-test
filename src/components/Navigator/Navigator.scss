@@ -1,0 +1,14 @@
+.navigator {
+  background: rgba(52, 90, 250, 0.04);
+  box-shadow: 3px 18px 41px #ffffff;
+  backdrop-filter: blur(16.5px);
+
+  .active {
+    svg {
+      color: #345afa;
+    }
+    span {
+      font-weight: 700;
+    }
+  }
+}

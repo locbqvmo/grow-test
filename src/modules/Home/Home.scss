@@ -1,0 +1,21 @@
+.card-list {
+  .swiper-pagination {
+    bottom: 0px;
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background: #345afa;
+    }
+    .swiper-pagination-bullet {
+      background: #313131;
+      opacity: 1;
+    }
+  }
+}
+
+.active-loans {
+  .swiper-wrapper {
+    margin-left: 32px;
+    .swiper-slide {
+      width: fit-content !important;
+    }
+  }
+}
